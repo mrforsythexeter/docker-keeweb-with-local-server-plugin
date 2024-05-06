@@ -12,7 +12,7 @@ I did this as I couldn't find one to use, that was clear how to use it
 
 ## Example docker run line
 
-``docker run -d -p 80:80 -p 443:443 -v .\databases\:/databases/ -e LOCAL_SERVER_PASSWORD='Change this' --name keeweb-local keeweb-local-server:latest``
+``docker run -d -p 80:80 -p 443:443 -v .\databases\:/databases/ -e LOCAL_SERVER_PASSWORD='Change this' --name keeweb-local shaunisdocked/keeweb-local-server:latest``
 
 ## Disclaimer
 The original author repos can be found here [https://github.com/keeweb/keeweb/](https://github.com/keeweb/keeweb/) Thank you for all your work
